@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090912">
+  <meta name="description" content="Uma surpresa feita com carinho para a Duda. 17 de novembro de 2026.">
+  <title>Duda — Na Mesma Sintonia | 15 anos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;600;700&family=Manrope:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div id="petalLayer" class="petal-layer" aria-hidden="true"></div>
+
+  <div class="welcome" id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+    <div class="welcome-stars" aria-hidden="true"></div>
+    <div class="welcome-card">
+      <div class="welcome-envelope" aria-hidden="true"><span>para Duda</span><img src="assets/lirio.svg" alt=""><small>com carinho, Kaique</small></div>
+      <p class="eyebrow">17 · 11 · 2026</p>
+      <h1 id="welcomeTitle">uma coisinha<br><em>pra você, Duda.</em></h1>
+      <p>separei um cantinho só seu. abre com calma, coloca a música se quiser e vai descobrindo as coisas no seu tempo.</p>
+      <button id="startExperience" class="button button-primary" type="button">abrir minha surpresa <span aria-hidden="true">↗</span></button>
+      <small>feito com carinho, do seu Kaique.</small><button id="resumeExperience" class="resume-button" type="button" hidden>continuar de onde parei ↗</button>
+    </div>
+  </div>
+
+  <header class="nav-shell" id="navShell">
+    <a href="#inicio" class="logo" aria-label="Voltar ao início"><span class="logo-flower">✿</span><span>na mesma <em>sintonia</em></span></a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#historia">nossa história</a><a href="#album">nossas fotos</a><a href="#duda">você</a><a href="#jardim">lírios</a><a href="#cartas">cartas</a>
+    </nav>
+    <div class="nav-actions"><button id="readingMode" class="icon-button" type="button" aria-label="Ativar leitura confortável" aria-pressed="false" title="Leitura confortável">Aa</button><button id="navMusic" class="icon-button sound" type="button" aria-label="Tocar música" title="Música">♫</button><button id="menuToggle" class="icon-button menu-toggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menu" type="button"><span></span><span></span></button></div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Navegação para celular" hidden><a href="#historia">nossa história</a><a href="#album">nossas fotos</a><a href="#duda">você</a><a href="#jardim">15 lírios</a><a href="#cartas">cartas</a><a href="#nosso-jeito">nosso jeito</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="inicio">
+      <div class="hero-ambient" aria-hidden="true"></div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy reveal">
+          <div class="eyebrow eyebrow-line"><span class="mini-flower">✿</span> 17 de novembro de 2026 · seus 15 anos</div>
+          <h1>Duda,<br><em>tem um pouco</em><br>de você em <span class="gradient-text">tudo isso.</span></h1>
+          <p>amor, coloquei um pouco da gente aqui. nossas fotos, nossas besteiras e umas coisas que eu queria te falar. vai olhando com calma, tá?</p>
+          <div class="hero-cta"><a class="button button-primary" href="#historia">descobrir nossa história <span>↗</span></a><a class="button button-link" href="#album">ver nossas fotos <span>↓</span></a></div>
+          <div class="hero-signature"><span>de Kaique, com carinho.</span><span class="signature-line" aria-hidden="true"></span><span>18.03.2026 — uma história em construção</span></div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Fotos do casal">
+          <div class="hero-halo" aria-hidden="true"></div>
+          <div class="hero-photo hero-photo-primary"><img src="assets/fotos/foto-25.webp" alt="Kaique e Duda juntos sorrindo" fetchpriority="high"></div>
+          <div class="hero-photo hero-photo-side"><img src="assets/fotos/foto-15.webp" alt="Mais um registro do casal"></div>
+          <div class="hero-sticker sticker-top"><span>✧</span> nossos pedacinhos</div>
+          <div class="hero-sticker sticker-bottom"><span>♡</span> um dia de cada vez</div>
+          <div class="hero-orbit" aria-hidden="true"><span>✳</span></div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span>role devagar</span><span>↓</span></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div>NA MESMA SINTONIA <span>✿</span> 18.03.2026 <span>✿</span> UMA HISTÓRIA EM CONSTRUÇÃO <span>✿</span> NA MESMA SINTONIA <span>✿</span> 18.03.2026 <span>✿</span> UMA HISTÓRIA EM CONSTRUÇÃO <span>✿</span></div></div>
+
+    <section class="chapter-guide wrap" aria-label="Explore no seu tempo"><div><span class="eyebrow">UM PRESENTE, VÁRIOS CAMINHOS</span><h2>sem pressa.<br><em>é tudo pra você.</em></h2></div><div class="chapter-links"><a href="#historia"><span>01</span>relembrar o começo <b>↗</b></a><a href="#album"><span>02</span>guardar nossos momentos <b>↗</b></a><a href="#jardim"><span>03</span>descobrir os recados <b>↗</b></a><a href="#cartas"><span>04</span>abrir uma carta <b>↗</b></a></div></section><section class="section section-history" id="historia"><div class="wrap">
+      <div class="section-intro reveal"><span class="section-index">01 / desde aquela conversa</span><h2>e aconteceu <em>a gente.</em></h2><p>engraçado pensar que vc já tava aí, vivendo seus dias, e eu aqui vivendo os meus, sem imaginar que ia preparar tudo isso pra vc.</p></div>
+      <div class="history-layout">
+        <div class="history-poster reveal"><div class="history-image"><img src="assets/fotos/foto-06.webp" alt="Kaique e Duda em uma lembrança juntos" loading="lazy"></div><div class="history-poster-text"><span>nosso ponto de partida</span><strong>18<span>.</span>03<span>.</span>26</strong><small>com Nicole fazendo parte desse começo.</small></div></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-marker">01</div><div><span>ANTES</span><h3>nossos caminhos</h3><p>a gente tinha a própria rotina, os próprios assuntos e um monte de coisa acontecendo. até que a Nicole acabou fazendo parte desse começo. de tudo que poderia acontecer depois, aconteceu a gente.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker">02</div><div><span>18 MARÇO 2026</span><h3>uma conversa, um começo</h3><p>foi quando a gente começou a conversar. naquele dia eu ainda não sabia o espaço que vc ia ganhar na minha vida. hoje essa data tem outro significado pra mim.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker">03</div><div><span>AOS POUQUINHOS</span><h3>você foi ficando</h3><p>eu fui conhecendo seus gostos, seu jeito e as coisas que são importantes pra vc. vc foi se tornando alguém que eu queria ter por perto, perguntar como foi o dia e contar do meu também.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker">04</div><div><span>17 NOVEMBRO 2026</span><h3>hoje é todo seu</h3><p>agora eu tô aqui, te desejando feliz aniversário desse jeito um pouco exagerado kkkkk. quis separar esse tempo e preparar alguma coisa que vc pudesse abrir de novo.</p></div></article>
+        </div>
+      </div>
+      <div class="history-quote reveal"><span>“</span><p>se eu pudesse escolher de novo,<br> ainda escolheria <em>conhecer vc.</em></p></div>
+    </div></section>
+
+    <section class="section section-counter" id="tempo"><div class="wrap reveal"><span class="section-index">02 / o tempo passou</span><h2>desde aquela <em>primeira conversa.</em></h2><p>os dias continuam passando. e é engraçado pensar em tanta coisa que começou com uma mensagem.</p><div class="counter" role="timer" aria-label="Tempo desde 18 de março de 2026"><div><strong id="countDays">000</strong><span>dias</span></div><div><strong id="countHours">00</strong><span>horas</span></div><div><strong id="countMinutes">00</strong><span>minutos</span></div><div><strong id="countSeconds">00</strong><span>segundos</span></div></div><small>desde 18 de março de 2026</small></div></section>
+
+    <section class="section section-album" id="album"><div class="wrap">
+      <div class="split-heading reveal"><div><span class="section-index">03 / nossos pedacinhos</span><h2>o nosso <em>álbum.</em></h2></div><div><p>nossas caras, nossas besteiras, os filtros aleatórios kkkkk. tem coisa que eu só quero guardar porque tem a gente no meio.</p><span class="photo-count">44 fotos guardadas aqui ♡</span></div></div>
+      <div id="photoFeature" class="photo-feature reveal"></div>
+      <div class="album-controls"><span>arrasta pra ver mais um pedacinho de nós</span><div><button id="filmPrev" type="button" aria-label="Fotos anteriores">←</button><button id="filmNext" type="button" aria-label="Próximas fotos">→</button></div></div><div class="photo-film" id="photoFilm" aria-label="Prévia do álbum"></div>
+      <div class="center-actions"><button id="openAlbum" type="button" class="button button-outline">abrir o álbum inteiro · 44 fotos <span>↗</span></button></div>
+      <div id="albumGrid" class="album-grid" hidden></div>
+    </div></section>
+
+    <section class="section section-about" id="duda"><div class="wrap">
+      <div class="about-layout"><div class="about-main reveal"><span class="section-index">04 / antes do nosso nós</span><h2>tem um mundo<br>inteiro <em>em você.</em></h2><p class="lead">eu gosto muito de falar sobre nós, mas hoje eu quero falar de vc também.</p><p>gosto de quando vc vem contar do seu dia, das histórias da escola, das suas amigas e das coisas que passam na sua cabeça. às vezes a gente começa falando de uma coisa e termina rindo de outra nada a ver kkkkk.</p><p>quero te ver conhecendo os lugares que tem vontade, encontrando alguma coisa que goste de fazer e conquistando sua independência. quero ouvir vc falando das suas conquistas, até daquelas que vc achar pequenas.</p><p>e não precisa correr pra ter a vida toda resolvida, tá? vc tá fazendo 15 anos. tem muita coisa pra aprender, mudar de ideia, tentar de novo e aproveitar.</p><p>quero continuar ouvindo suas histórias, sabendo do que vc gosta e conhecendo mais esse seu jeito. tem muita coisa em vc que eu gosto e que às vezes eu nem sei explicar direito.</p></div>
+      <div class="about-art reveal"><div class="about-frame"><img src="assets/fotos/foto-21.webp" alt="Duda com Kaique" loading="lazy"></div><span class="about-flower">✿</span><p>Maria Eduarda<br><em>mas pra mim, Duda.</em></p></div></div>
+      <div class="detail-heading reveal"><span class="section-index">05 / eu lembro, viu?</span><h3>os seus pequenos <em>grandes detalhes.</em></h3><p>toque nos cartões. sim, eu presto atenção kkkkk.</p></div>
+      <div class="detail-grid" id="detailGrid"></div>
+      <div class="more-details" id="moreDetails" hidden></div><div class="center-actions"><button class="button button-link" id="moreDetailsButton" type="button">mais um pouquinho do seu universo <span>+</span></button></div>
+    </div></section>
+
+    <section class="section constellation-section" id="estrelas"><div class="wrap"><div class="constellation-copy reveal"><span class="section-index">06 / nossa data no céu</span><h2>até as estrelas<br>ganharam <em>um motivo.</em></h2><p>não é um mapa astronômico real. é só um pedacinho de céu que eu imaginei pra guardar a nossa data. toca nas estrelas e descobre os recados.</p><div class="date-chip">✧ 18 · 03 · 2026 ✧</div></div><div class="star-sky" id="starSky" aria-label="Céu interativo com mensagens" role="group"><svg viewBox="0 0 600 400" aria-hidden="true" preserveAspectRatio="none"><path d="M97 270 L180 105 L306 178 L395 80 L490 218 L351 294 L210 339 L97 270" fill="none" stroke="rgba(203,187,255,.35)" stroke-width="1" stroke-dasharray="4 8"/></svg><button class="star-point" style="--sx:16%;--sy:68%" data-star="0" aria-label="Abrir estrela 1">✦</button><button class="star-point" style="--sx:30%;--sy:26%" data-star="1" aria-label="Abrir estrela 2">✧</button><button class="star-point" style="--sx:51%;--sy:45%" data-star="2" aria-label="Abrir estrela 3">✦</button><button class="star-point" style="--sx:66%;--sy:20%" data-star="3" aria-label="Abrir estrela 4">✧</button><button class="star-point" style="--sx:82%;--sy:54%" data-star="4" aria-label="Abrir estrela 5">✦</button><button class="star-point" style="--sx:59%;--sy:74%" data-star="5" aria-label="Abrir estrela 6">✧</button><button class="star-point" style="--sx:35%;--sy:85%" data-star="6" aria-label="Abrir estrela 7">✦</button><span class="sky-label">um céu imaginado pra nossa história</span></div></div></section>
+
+    <section class="section section-garden" id="jardim"><div class="wrap"><div class="garden-heading reveal"><span class="section-index">07 / um jardim só seu</span><span class="garden-symbol" aria-hidden="true">✿</span><h2>quinze lírios.<br><em>quinze recados.</em></h2><p>cada flor guarda uma coisa que eu queria te dizer. toca nas flores, princesa. não vale pular todas de uma vez kkkkk.</p><div class="garden-progress"><span id="gardenCounter">0 de 15 lírios descobertos</span><div><span id="gardenFill"></span></div></div></div><div id="lilyGarden" class="lily-garden" aria-label="Quinze lírios com mensagens escondidas"></div><div class="garden-complete" id="gardenComplete" hidden>vc encontrou todos! 🌷 eu sabia que vc ia ter curiosidade kkkkk. gosto de saber que vc leu cada um.</div></div></section>
+
+    <section class="section section-together" id="nos"><div class="wrap"><span class="section-index">08 / o que cabe no nosso nós</span><h2 class="reveal">três palavras.<br><em>tantas coisas nelas.</em></h2><div class="word-stack" id="wordStack"><button class="word-item" data-word="0" type="button"><span>01</span><strong>amizade.</strong><span class="word-plus">+</span></button><button class="word-item" data-word="1" type="button"><span>02</span><strong>carinho.</strong><span class="word-plus">+</span></button><button class="word-item" data-word="2" type="button"><span>03</span><strong>amor.</strong><span class="word-plus">+</span></button></div></div></section>
+
+<section class="section our-way" id="nosso-jeito"><div class="wrap">
+<div class="our-heading reveal"><span class="section-index">entre uma conversa e outra</span><h2>é bem assim.<br><em>é o nosso jeito.</em></h2><p>tem coisa que parece pequena quando eu conto, mas é o que eu mais gosto quando tô com vc.</p></div>
+<div class="our-layout"><div class="our-note reveal"><span class="note-number">01 / quando eu chego aí</span><h3>o abraço depois<br>do caminho.</h3><p>às vezes o caminho de ônibus até sua casa cansa, mas quando eu chego e vc me recebe com um beijo e um abraço, eu já fico mais leve. como nossos horários de escola não batem durante a semana, a gente aproveita pra se ver no sábado ou no domingo.</p><p>tem fim de semana que consigo ir nos dois dias, tem outros que só dá pra ir em um. eu gosto de aproveitar esse tempo com vc.</p><span class="note-sign">gosto de estar aí com vc. ♡</span></div>
+<div class="our-scenes"><article class="scene reveal"><span>02 / nossas besteiras</span><h3>a gente ri do nada.</h3><p>eu fazendo cócegas em vc, vc me mordendo de brincadeira kkkkk. ou a gente vendo TikTok e rindo junto. não precisa acontecer nada demais pra eu gostar de estar ali.</p></article><article class="scene reveal"><span>03 / me conta do seu dia</span><h3>até as fofocas da escola.</h3><p>vc conta das suas amigas, do que aconteceu na escola, das coisas que quer. eu conto da minha semana e quando vejo já tô mais leve. estar com vc me traz paz, amor.</p></article><article class="scene reveal"><span>04 / no nosso tempo</span><h3>um “vc tá bem?” já conta.</h3><p>a gente nem sempre conversa o dia inteiro. tem escola, tem dia que eu durmo cedo e os horários não ajudam. mas só de saber que vc tá bem, saber o que tá fazendo, já é bom. depois a gente conversa mais.</p></article></div></div>
+<div class="care-note reveal"><span class="section-index">uma coisa que eu não esqueci</span><p>quando eu trabalhava, tinha dia que eu só conseguia falar com vc no almoço. chegava cansado, às vezes nem respondia, e quando pedia desculpa vc entendia. eu percebia sua vontade de estar comigo. <em>esse seu cuidado ficou comigo, viu?</em></p></div>
+</div></section>
+    <section class="section section-letters" id="cartas"><div class="wrap"><div class="split-heading reveal"><div><span class="section-index">09 / pra hoje e pra depois</span><h2>quando precisar,<br><em>volta aqui.</em></h2></div><p>tem um carinho guardado pra cada um desses momentos. abre uma carta quando der vontade, sem precisar de data especial.</p></div><div class="letters-grid" id="lettersGrid"></div></div></section>
+
+    <section class="section section-dreams" id="futuro"><div class="wrap"><div class="split-heading reveal"><div><span class="section-index">10 / ainda quero com você</span><h2>mais dias simples.<br><em>mais histórias nossas.</em></h2></div><p>não precisa ser nada absurdo. tem muita coisa boa que cabe num sorvete, numa conversa ou num fim de tarde.</p></div><div class="dream-grid" id="dreamGrid"></div></div></section>
+
+    <section class="section behind-section" id="bastidores"><div class="wrap"><div class="behind-card reveal"><span class="section-index">11 / por trás disso tudo</span><h2>tinha que ter<br><em>um pouco de mim.</em></h2><p>amor, eu poderia ter escrito só uma mensagem, mas comecei a pensar em umas ideias e quando percebi já queria colocar um monte de coisa aqui kkkkk.</p><p>eu fui juntando as informações que vc me contou e imaginando como transformar isso numa surpresa. os lírios, as cores, os textos, as fotos… queria que vc abrisse e sentisse que tinha alguma coisa sua em cada parte.</p><p>e como eu quero seguir na área de tecnologia, isso também virou uma oportunidade de estudar e aprender fazendo alguma coisa que tem significado pra mim.</p><p>teve hora que eu me estressei, sim. quem olha pronto não vê as coisas que deram errado no caminho kkkkk. mas eu queria conseguir terminar e olhar pra isso pensando: “agora tá do jeito que eu queria entregar pra ela”.</p><p>gosto de saber que usei esse tempo pra preparar algo pra vc. espero que até nos detalhes mais simples vc consiga perceber o carinho que eu coloquei.</p><div class="behind-mark">feito com <span>♥</span> e alguns códigos.</div></div></div></section>
+
+    <section class="section final-section" id="final"><div class="wrap final-wrap"><span class="section-index">12 / uma última coisa</span><span class="final-emblem" aria-hidden="true">✿</span><h2>feliz 15,<br><em>minha princesa.</em></h2><p>chegou até aqui, amor? ainda falta a última carta. ela é um pouquinho grande… mas vc já sabe como eu sou kkkkk.</p><button id="openFinalLetter" class="button button-primary" type="button">abrir minha última carta <span>✉</span></button><div class="final-photo"><img src="assets/fotos/foto-10.webp" alt="Kaique e Duda juntos" loading="lazy"></div><button class="final-secret" id="finalSecret" type="button" hidden>só mais uma coisa…</button><a class="back-top" href="#inicio">quero ler de novo ↑</a></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-grid"><div><span class="footer-flower">✿</span><strong>na mesma sintonia.</strong><p>18.03.2026 · uma história em construção.</p></div><span>pra Duda, com carinho. — Kaique</span></div></footer>
+
+  <div id="player" class="music-player" aria-label="Controle de música"><button type="button" id="musicToggle" class="music-main-button" aria-label="Tocar Pupila">▶</button><button id="compactMusic" type="button" aria-label="Recolher reprodutor" aria-expanded="true">−</button><div class="music-meta"><strong>Pupila</strong><span>ANAVITÓRIA + Vitor Kley</span><input type="range" id="musicSeek" min="0" max="100" value="0" step="0.1" aria-label="Posição da música"><div class="music-times"><small id="musicTime">0:00</small><small id="musicDuration">0:00</small></div></div><button type="button" id="musicMute" class="music-mute" aria-label="Silenciar música">♫</button><audio id="siteAudio" preload="metadata" src="assets/musica/pupila.mp3"></audio></div>
+
+  <div class="modal" id="messageModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden><div class="modal-shade" data-close-modal></div><div class="modal-card"><button type="button" class="modal-close" data-close-modal aria-label="Fechar mensagem">×</button><img class="letter-lily" src="assets/lirio.svg" alt=""><div class="letter-reading-tools"><button id="letterFont" type="button" aria-pressed="false">Aa · ampliar texto</button></div><span class="eyebrow" id="modalTag"></span><h2 id="modalTitle"></h2><div id="modalBody" class="modal-body"></div><button type="button" class="modal-bottom" data-close-modal>guardar esse recado ♡</button></div></div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizar fotografia" hidden><button class="lightbox-close" id="closeLightbox" type="button" aria-label="Fechar foto">×</button><button class="lightbox-arrow lightbox-prev" id="prevPhoto" type="button" aria-label="Foto anterior">‹</button><figure><img id="lightboxImage" alt="Foto do casal"><figcaption><span id="lightboxCaption"></span><span id="lightboxNumber"></span></figcaption></figure><button class="lightbox-arrow lightbox-next" id="nextPhoto" type="button" aria-label="Próxima foto">›</button></div>
+  <noscript><style>.welcome{display:none}.reveal{opacity:1;transform:none}</style><p>Ative o JavaScript para abrir os recados, as cartas e o álbum completo.</p></noscript><script src="script.js" defer></script>
+</body>
+</html>
